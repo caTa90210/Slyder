@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {padding:0; margin:0;}
+img {vertical-align:bottom;}
+
+#slyder {margin:0 auto; position:relative; top:200px;}
+#slyder_dots {position:absolute; left:282px; bottom:10px; z-index:20;}
+.dots_item {width:15px; height:15px; background:url(img/slyder_off.png) no-repeat center center; cursor:pointer; float:left;}
+.dots_item_active {width:15px; height:15px; background:url(img/slyder_on.png) no-repeat center center; float:left;}
+#slyder_left_button {background:url(img/left_arrow.png) 3% 55% no-repeat; position:absolute; left:0; top:0; z-index:10;}
+#slyder_left_button:hover {background:url(img/left_arrow_active.png) 3% 55% no-repeat;}
+#slyder_right_button {background:url(img/right_arrow.png) 97% 55% no-repeat; position:absolute; right:0; top:0; z-index:10;}
+#slyder_right_button:hover {background:url(img/right_arrow_active.png) 97% 55% no-repeat;}
+#slyder_content {overflow:hidden; position:relative; top:0; left:0; z-index:1;}
+.slyder_item {position:absolute; top:0; z-index:1; text-align:center;}
